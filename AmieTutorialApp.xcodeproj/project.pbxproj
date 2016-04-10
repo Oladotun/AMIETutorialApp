@@ -14,6 +14,17 @@
 		7C03204C1C90C85F00E299D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C03204A1C90C85F00E299D2 /* LaunchScreen.storyboard */; };
 		7C0320571C90C85F00E299D2 /* AmieTutorialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0320561C90C85F00E299D2 /* AmieTutorialAppTests.swift */; };
 		7C0320621C90C86000E299D2 /* AmieTutorialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0320611C90C86000E299D2 /* AmieTutorialAppUITests.swift */; };
+		7C1001281C90CF8200B822C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1001271C90CF8200B822C0 /* Default-568h@2x.png */; };
+		7C11543B1C98B4A70041C012 /* StudentsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11543A1C98B4A70041C012 /* StudentsTableView.swift */; };
+		7C11543D1C98B5060041C012 /* StudentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11543C1C98B5060041C012 /* StudentsTableViewCell.swift */; };
+		7C11543F1C98B9B80041C012 /* StudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11543E1C98B9B80041C012 /* StudentInfoViewController.swift */; };
+		7C1154431C9A03730041C012 /* TutorsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1154421C9A03730041C012 /* TutorsListTableViewController.swift */; };
+		7C1154451C9A04740041C012 /* TutorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1154441C9A04740041C012 /* TutorTableViewCell.swift */; };
+		7C1154471C9A08EF0041C012 /* TutorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1154461C9A08EF0041C012 /* TutorInfoViewController.swift */; };
+		7C1154901CA07BE30041C012 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11548F1CA07BE30041C012 /* SWRevealViewController.m */; };
+		7C1154921CA07CEE0041C012 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1154911CA07CEE0041C012 /* MenuController.swift */; };
+		7C869DC91C90D2A300084B52 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C869DC81C90D2A300084B52 /* InfoPageViewController.swift */; };
+		7CE313291C98AC1A00634900 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE313281C98AC1A00634900 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,19 @@
 		7C03205D1C90C86000E299D2 /* AmieTutorialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmieTutorialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0320611C90C86000E299D2 /* AmieTutorialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmieTutorialAppUITests.swift; sourceTree = "<group>"; };
 		7C0320631C90C86000E299D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C1001271C90CF8200B822C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7C11543A1C98B4A70041C012 /* StudentsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableView.swift; sourceTree = "<group>"; };
+		7C11543C1C98B5060041C012 /* StudentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewCell.swift; sourceTree = "<group>"; };
+		7C11543E1C98B9B80041C012 /* StudentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfoViewController.swift; sourceTree = "<group>"; };
+		7C1154421C9A03730041C012 /* TutorsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorsListTableViewController.swift; sourceTree = "<group>"; };
+		7C1154441C9A04740041C012 /* TutorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorTableViewCell.swift; sourceTree = "<group>"; };
+		7C1154461C9A08EF0041C012 /* TutorInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorInfoViewController.swift; sourceTree = "<group>"; };
+		7C11548D1CA07BE20041C012 /* AmieTutorialApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmieTutorialApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		7C11548E1CA07BE30041C012 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		7C11548F1CA07BE30041C012 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		7C1154911CA07CEE0041C012 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		7C869DC81C90D2A300084B52 /* InfoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
+		7CE313281C98AC1A00634900 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,7 @@
 		7C0320351C90C85F00E299D2 = {
 			isa = PBXGroup;
 			children = (
+				7C1001271C90CF8200B822C0 /* Default-568h@2x.png */,
 				7C0320401C90C85F00E299D2 /* AmieTutorialApp */,
 				7C0320551C90C85F00E299D2 /* AmieTutorialAppTests */,
 				7C0320601C90C86000E299D2 /* AmieTutorialAppUITests */,
@@ -97,12 +122,23 @@
 		7C0320401C90C85F00E299D2 /* AmieTutorialApp */ = {
 			isa = PBXGroup;
 			children = (
+				7C11548D1CA07BE20041C012 /* AmieTutorialApp-Bridging-Header.h */,
+				7C11548C1CA07BA40041C012 /* SWRealViewController */,
 				7C0320411C90C85F00E299D2 /* AppDelegate.swift */,
-				7C0320431C90C85F00E299D2 /* ViewController.swift */,
 				7C0320451C90C85F00E299D2 /* Main.storyboard */,
 				7C0320481C90C85F00E299D2 /* Assets.xcassets */,
+				7C0320431C90C85F00E299D2 /* ViewController.swift */,
 				7C03204A1C90C85F00E299D2 /* LaunchScreen.storyboard */,
 				7C03204D1C90C85F00E299D2 /* Info.plist */,
+				7C869DC81C90D2A300084B52 /* InfoPageViewController.swift */,
+				7CE313281C98AC1A00634900 /* HomePageViewController.swift */,
+				7C11543A1C98B4A70041C012 /* StudentsTableView.swift */,
+				7C11543C1C98B5060041C012 /* StudentsTableViewCell.swift */,
+				7C11543E1C98B9B80041C012 /* StudentInfoViewController.swift */,
+				7C1154421C9A03730041C012 /* TutorsListTableViewController.swift */,
+				7C1154441C9A04740041C012 /* TutorTableViewCell.swift */,
+				7C1154461C9A08EF0041C012 /* TutorInfoViewController.swift */,
+				7C1154911CA07CEE0041C012 /* MenuController.swift */,
 			);
 			path = AmieTutorialApp;
 			sourceTree = "<group>";
@@ -123,6 +159,15 @@
 				7C0320631C90C86000E299D2 /* Info.plist */,
 			);
 			path = AmieTutorialAppUITests;
+			sourceTree = "<group>";
+		};
+		7C11548C1CA07BA40041C012 /* SWRealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7C11548E1CA07BE30041C012 /* SWRevealViewController.h */,
+				7C11548F1CA07BE30041C012 /* SWRevealViewController.m */,
+			);
+			name = SWRealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C03204C1C90C85F00E299D2 /* LaunchScreen.storyboard in Resources */,
+				7C1001281C90CF8200B822C0 /* Default-568h@2x.png in Resources */,
 				7C0320491C90C85F00E299D2 /* Assets.xcassets in Resources */,
 				7C0320471C90C85F00E299D2 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE313291C98AC1A00634900 /* HomePageViewController.swift in Sources */,
+				7C1154471C9A08EF0041C012 /* TutorInfoViewController.swift in Sources */,
+				7C869DC91C90D2A300084B52 /* InfoPageViewController.swift in Sources */,
+				7C1154431C9A03730041C012 /* TutorsListTableViewController.swift in Sources */,
+				7C1154921CA07CEE0041C012 /* MenuController.swift in Sources */,
 				7C0320441C90C85F00E299D2 /* ViewController.swift in Sources */,
+				7C11543B1C98B4A70041C012 /* StudentsTableView.swift in Sources */,
+				7C1154451C9A04740041C012 /* TutorTableViewCell.swift in Sources */,
 				7C0320421C90C85F00E299D2 /* AppDelegate.swift in Sources */,
+				7C1154901CA07BE30041C012 /* SWRevealViewController.m in Sources */,
+				7C11543F1C98B9B80041C012 /* StudentInfoViewController.swift in Sources */,
+				7C11543D1C98B5060041C012 /* StudentsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +456,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AmieTutorialApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.opasina.oladotun.AmieTutorialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmieTutorialApp/AmieTutorialApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,10 +471,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AmieTutorialApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.opasina.oladotun.AmieTutorialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmieTutorialApp/AmieTutorialApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -423,6 +486,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AmieTutorialAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.opasina.oladotun.AmieTutorialAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +499,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AmieTutorialAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.opasina.oladotun.AmieTutorialAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = AmieTutorialAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.opasina.oladotun.AmieTutorialAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = AmieTutorialAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.opasina.oladotun.AmieTutorialAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +552,7 @@
 				7C0320681C90C86000E299D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C0320691C90C86000E299D2 /* Build configuration list for PBXNativeTarget "AmieTutorialAppTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +561,7 @@
 				7C03206B1C90C86000E299D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C03206C1C90C86000E299D2 /* Build configuration list for PBXNativeTarget "AmieTutorialAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +570,7 @@
 				7C03206E1C90C86000E299D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
